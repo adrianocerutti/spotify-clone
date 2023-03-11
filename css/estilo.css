@@ -2,6 +2,7 @@ html,
 body,
 #home {
   height: 100%;
+  overflow-x: hidden;
 }
 
 body {
@@ -69,12 +70,64 @@ nav.navbar-transparente {
   color: black;
 }
 
+/* Estrutura de conteúdos */
+.caixa {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#servicos {
+  background: white;
+}
+
+#servicos h2,
+h3 {
+  color: #7c25f8;
+}
+
+#recursos {
+  color: white;
+}
+
+#recursos h2 {
+  color: white;
+}
+
+#recursos h3 {
+  color: #9df0e1;
+}
+
+.albuns {
+  padding: 10px 0px;
+}
+
+.rotacionar {
+  padding-left: 80px;
+  -ms-transform: rotate(30deg);
+  -webkit-transform: rotate(30deg);
+  transform: rotate(30deg);
+}
+
 /* Tipografia */
 h1 {
   font-weight: 900;
   letter-spacing: -0.05em;
   margin-bottom: 50px;
   color: white;
+}
+
+h2 {
+  font-size: 3em;
+}
+
+h3 {
+  font-size: 2em;
+}
+
+h2,
+h3 {
+  font-weight: 700;
+  letter-spacing: -0.04em;
 }
 
 /* Extra small devices (portrait phones, less than 576px) */
